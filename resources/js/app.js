@@ -1,6 +1,6 @@
 import './bootstrap';
 
-Echo.channel('notification')
+Echo.pirvate('notification')
     .listen('UserSessionChanged', (e) => {
         const notificationElement = document.getElementById('notification');
 
